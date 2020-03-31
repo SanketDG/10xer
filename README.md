@@ -15,6 +15,10 @@ Then look no more! Use my script (and my knowledge!) to find the inner
 I am not going to give the instructions for cloning because remember:
 _If you can't think like a 10x, you can never be a 10x_
 
+Change the name and email credentials in main.go!
+These are hardcoded right now because 10x.
+BUT we should also allow non-10xers to atleast try. Inclusion, my friend!
+
 ```
 $ go run main.go
 ```
@@ -26,6 +30,8 @@ that to Github for the monies and the cariyars.
 
 Just run `10xer` and see if it works out. Not everyone is capable, son.
 
+If you believe in yourself, just do the 10x steps. It will work out.
+
 ## But my fellow 10xer, this only commits the 10x code, not push it!
 
 Well, most 10xers don't write complete code, they wait for other 10xers
@@ -34,8 +40,9 @@ to send PRs. Get working!
 ## Features
 
 - Zero Error Checking (10xers generally don't have to deal with errors)
-- Single Responsbility Principle used exclusively
 - Avoiding using For Loops and instead good old LABELS!
+- Hard coded credentials (no config files!)
+- Single Responsbility Principle used exclusively
 
 ## What can you work on?
 
@@ -45,5 +52,6 @@ to send PRs. Get working!
 
 # Why?
 
-Because I am learning Go _and it's April Fool's_
+Because I am learning Go _and it's April Fool's_.
+
 Inspired by [RockStar](https://github.com/avinassh/rockstar)
